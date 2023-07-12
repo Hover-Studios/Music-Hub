@@ -1,19 +1,23 @@
 {
   "name": "electron-vue-template",
-  "version": "0.1.0",
+  "version": "0.0.1-beta1",
   "description": "A minimal Electron + Vue application",
   "main": "build/main/main.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
-    "build": "node scripts/build.js && electron-builder",
-    "build:win": "node scripts/build.js && electron-builder --win",
-    "build:mac": "node scripts/build.js && electron-builder --mac",
-    "build:linux": "node scripts/build.js && electron-builder --linux"
+    "build": "node scripts/build.js && electron-builder --publish always",
+    "build:win": "node scripts/build.js && electron-builder --win --publish always",
+    "build:mac": "node scripts/build.js && electron-builder --mac --publish always",
+    "build:linux": "node scripts/build.js && electron-builder --linux --publish always",
+    "dist": "node scripts/build.js && electron-builder",
+    "dist:win": "node scripts/build.js && electron-builder --win",
+    "dist:mac": "node scripts/build.js && electron-builder --mac",
+    "dist:linux": "node scripts/build.js && electron-builder --linux"
   },
   "repository": "https://github.com/deluze/electron-vue-template",
   "author": {
-    "name": "Deluze",
-    "url": "https://github.com/Deluze"
+    "name": "Hover Studios",
+    "url": "https://github.com/Hover-Studios"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
