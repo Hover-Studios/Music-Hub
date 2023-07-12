@@ -1,75 +1,25 @@
-<div align="center"> 
+# Hover Music Hub(HMH)
 
-# Electron Vue Template
-  
-<img width="794" alt="image" src="https://user-images.githubusercontent.com/32544586/222748627-ee10c9a6-70d2-4e21-b23f-001dd8ec7238.png">
+⚠**HMH is still in heavy development, and a public release have not been officially published.⚠**
 
-A simple starter template for a **Vue3** + **Electron** TypeScript based application, including **ViteJS** and **Electron Builder**.
-</div>
+## What is HMH?
 
-## About
+Hover Music Hub is a community driven application built with Electron + Vue.js with the specific goal of creating an application that music lovers would love. It is where music lovers would come to if they need to:
 
-This template utilizes [ViteJS](https://vitejs.dev) for building and serving your (Vue powered) front-end process, it provides Hot Reloads (HMR) to make development fast and easy ⚡ 
+* Discover new music
+* Share their listening habits/history with others
+* Chat with other Music Lovers
+* Write an review for songs/albums
+* Read reviews for songs/albums
 
-Building the Electron (main) process is done with [Electron Builder](https://www.electron.build/), which makes your application easily distributable and supports cross-platform compilation 😎
+## How do I download?
 
-## Getting started
+As of currently, we have not distributed any downloadable copies, as the app is nowhere near completion. 
 
-Click the green **Use this template** button on top of the repository, and clone your own newly created repository.
+## How long do I need to wait?
 
-**Or..**
+We have no estimated completion time as we are still very early in development.
 
-Clone this repository: `git clone git@github.com:Deluze/electron-vue-template.git`
+## How do I contribute?
 
-
-### Install dependencies ⏬
-
-```bash
-npm install
-```
-
-### Start developing ⚒️
-
-```bash
-npm run dev
-```
-
-## Additional Commands
-
-```bash
-npm run dev # starts application with hot reload
-npm run build # builds application, distributable files can be found in "dist" folder
-
-# OR
-
-npm run build:win # uses windows as build target
-npm run build:mac # uses mac as build target
-npm run build:linux # uses linux as build target
-```
-
-Optional configuration options can be found in the [Electron Builder CLI docs](https://www.electron.build/cli.html).
-## Project Structure
-
-```bash
-- scripts/ # all the scripts used to build or serve your application, change as you like.
-- src/
-  - main/ # Main thread (Electron application source)
-  - renderer/ # Renderer thread (VueJS application source)
-```
-
-## Using static files
-
-If you have any files that you want to copy over to the app directory after installation, you will need to add those files in your `src/main/static` directory.
-
-#### Referencing static files from your main process
-
-```ts
-/* Assumes src/main/static/myFile.txt exists */
-
-import {app} from 'electron';
-import {join} from 'path';
-import {readFileSync} from 'fs';
-
-const path = join(app.getAppPath(), 'static', 'myFile.txt');
-const buffer = readFileSync(path);
-```
+Thank you for wanting to contribute! Please make a clone of the repository and make contributions there! Please only make edits to the beta branch. Once you are done editing the code and after you have verified that it does not break the app, submit a pull request with the changes to our repo!
