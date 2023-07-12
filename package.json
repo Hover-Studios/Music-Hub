@@ -5,15 +5,15 @@
   "main": "build/main/main.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
-    "build": "node scripts/build.js && electron-builder",
-    "build:win": "node scripts/build.js && electron-builder --win",
-    "build:mac": "node scripts/build.js && electron-builder --mac",
-    "build:linux": "node scripts/build.js && electron-builder --linux"
+    "buildapp": "node scripts/build.js && electron-builder",
+    "buildapp:win": "node scripts/build.js && electron-builder --win",
+    "buildapp:mac": "node scripts/build.js && electron-builder --mac",
+    "buildapp:linux": "node scripts/build.js && electron-builder --linux"
   },
   "repository": "https://github.com/deluze/electron-vue-template",
   "author": {
-    "name": "Deluze",
-    "url": "https://github.com/Deluze"
+    "name": "Hover Studios",
+    "url": "https://github.com/Hover-Studios"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
