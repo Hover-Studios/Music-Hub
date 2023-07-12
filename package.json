@@ -1,5 +1,5 @@
 {
-  "name": "electron-vue-template",
+  "name": "hover-music-hub",
   "version": "0.0.1-beta1",
   "description": "A minimal Electron + Vue application",
   "main": "build/main/main.js",
