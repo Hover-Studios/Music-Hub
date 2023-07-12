@@ -22,4 +22,4 @@ We have no estimated completion time as we are still very early in development.
 
 ## How do I contribute?
 
-Thank you for wanting to contribute! Please make a clone of the repository and make contributions there! Please only make edits to the beta branch. Once you are done editing the code and after you have verified that it does not break the app, submit a pull request with the changes to our repo!
+Thank you for wanting to contribute! Please make a clone of the repository and make contributions there! Please make your edits on your own branch and then create a pull edit on the beta branch once you finish making your edits and verifying that the application works. Pull Requests between stable and beta branch should only be done by the project owner!
