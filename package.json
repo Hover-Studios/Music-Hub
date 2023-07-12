@@ -5,10 +5,10 @@
   "main": "build/main/main.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
-    "dist": "node scripts/build.js && electron-builder --win",
-    "dist:win": "node scripts/build.js && electron-builder --win",
-    "dist:mac": "node scripts/build.js && electron-builder --mac",
-    "dist:linux": "node scripts/build.js && electron-builder --linux"
+    "dist": "node scripts/build.js && electron-builder --publish",
+    "dist:win": "node scripts/build.js && electron-builder --win --publish",
+    "dist:mac": "node scripts/build.js && electron-builder --mac --publish",
+    "dist:linux": "node scripts/build.js && electron-builder --linux --publish"
   },
   "repository": "https://github.com/deluze/electron-vue-template",
   "author": {
